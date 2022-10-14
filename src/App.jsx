@@ -172,17 +172,25 @@ const TRIP_TITLE = [
   "Total Trip KM",
 ];
 
+let myClick = false;
+
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [recordsPerPage] = useState(5);
+  const [filteredData, setFilteredData] = useState(TRIP_DATA);
 
   const indexOfLastRecord = currentPage * recordsPerPage;
   const indexOfFirstRecord = indexOfLastRecord - recordsPerPage;
-  const currentRecords = TRIP_DATA.slice(indexOfFirstRecord, indexOfLastRecord);
-  const nPages = Math.ceil(TRIP_DATA.length / recordsPerPage);
-  console.log(indexOfLastRecord);
-  console.log(indexOfFirstRecord);
+  console.log(indexOfFirstRecord, indexOfLastRecord);
+  let currentRecords;
+  if (!myClick) {
+    currentRecords = filteredData.slice(indexOfFirstRecord, indexOfLastRecord);
+  } else {
+    currentRecords = filteredData;
+  }
   console.log(currentRecords);
+  const nPages = Math.ceil(filteredData.length / recordsPerPage);
+
   let fromRecords = 0;
   if (currentPage === 1) fromRecords = 1;
   else fromRecords = (currentPage - 1) * recordsPerPage;
@@ -190,19 +198,26 @@ function App() {
   if (
     currentPage * recordsPerPage +
       recordsPerPage -
-      (TRIP_DATA.length % recordsPerPage) >
-    TRIP_DATA.length
+      (filteredData.length % recordsPerPage) >
+    filteredData.length
   )
-    toRecords = TRIP_DATA.length;
+    toRecords = filteredData.length;
   else toRecords = currentPage * recordsPerPage;
-
+  const buttonClickHandler = () => {
+    myClick = true;
+    console.log(TRIP_DATA);
+    setFilteredData(
+      TRIP_DATA.filter((data) => data.driver_name === "Jay Chauhan")
+    );
+  };
   return (
     <div className="container mt-5">
       <h2> Simple Pagination Example in React </h2>
+      <button onClick={buttonClickHandler}>This Week</button>
       <Records data={currentRecords} headers={TRIP_TITLE} />
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <p>
-          Showing {fromRecords} to {toRecords} of {TRIP_DATA.length} entries{" "}
+          Showing {fromRecords} to {toRecords} of {filteredData.length} entries{" "}
         </p>
         <Pagination
           nPages={nPages}

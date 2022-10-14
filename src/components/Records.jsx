@@ -3,15 +3,8 @@ import { useState } from "react";
 import Accordian from "./Accordian";
 
 const Records = ({ data, headers }) => {
-  const [filteredData, setFilteredData] = useState(data);
-  const buttonClickHandler = () => {
-    setFilteredData((prev) =>
-      prev.filter((data) => data.driver_name === "Jay Chauhan")
-    );
-  };
   return (
     <React.Fragment>
-      <button onClick={buttonClickHandler}>This Week</button>
       <table className="table">
         <thead>
           <tr>
@@ -21,7 +14,7 @@ const Records = ({ data, headers }) => {
           </tr>
         </thead>
         <tbody>
-          {filteredData.map((item) => (
+          {data.map((item) => (
             <Accordian
               total_trip_time={item.total_trip_time}
               drop_time={item.drop_time}
