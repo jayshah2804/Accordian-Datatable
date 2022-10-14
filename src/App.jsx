@@ -337,6 +337,7 @@ function App() {
   else toRecords = currentPage * recordsPerPage;
   // toRecords = currentPage * recordsPerPage;
   const buttonClickHandler = () => {
+    setCurrentPage(1);
     myClick = true;
     console.log(TRIP_DATA);
     setFilteredData(
