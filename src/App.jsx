@@ -14,24 +14,24 @@ const TRIP_DATA = [
     pickup_time: "01:00 PM",
     drop_time: "03:00 PM",
     total_trip_time: "02:00 Hrs",
-    total_trip_km: "49 KM",
+    total_trip_km: "419 KM",
   },
   {
     id: 2,
     driver_image: "",
-    driver_name: "Anil shah",
+    driver_name: "Jay Chauhan",
     car_info: "Alto, GJ 01 SH 0987",
     journey_id: "SDFGT65657",
     trip_date: "15/09/2022",
     pickup_time: "01:00 PM",
     drop_time: "03:00 PM",
     total_trip_time: "02:00 Hrs",
-    total_trip_km: "96 KM",
+    total_trip_km: "196 KM",
   },
   {
     id: 3,
     driver_image: "",
-    driver_name: "Anil Chauhan",
+    driver_name: "Jay Chauhan",
     car_info: "Alto, GJ 01 SH 0987",
     journey_id: "SDFGT65657",
     trip_date: "15/09/2022",
@@ -43,43 +43,43 @@ const TRIP_DATA = [
   {
     id: 4,
     driver_image: "",
-    driver_name: "Anil Chauhan",
+    driver_name: "Jay Chauhan",
     car_info: "Alto, GJ 01 SH 0987",
     journey_id: "SDFGT65657",
     trip_date: "15/09/2022",
     pickup_time: "01:00 PM",
     drop_time: "03:00 PM",
     total_trip_time: "02:00 Hrs",
-    total_trip_km: "46 KM",
+    total_trip_km: "76 KM",
   },
   {
     id: 5,
     driver_image: "",
-    driver_name: "Anil Chauhan",
+    driver_name: "Jay Chauhan",
     car_info: "Alto, GJ 01 SH 0987",
     journey_id: "SDFGT65657",
     trip_date: "15/09/2022",
     pickup_time: "01:00 PM",
     drop_time: "03:00 PM",
     total_trip_time: "02:00 Hrs",
-    total_trip_km: "46 KM",
+    total_trip_km: "66 KM",
   },
   {
     id: 6,
     driver_image: "",
-    driver_name: "Anil Chauhan",
+    driver_name: "Jay Chauhan",
     car_info: "Alto, GJ 01 SH 0987",
     journey_id: "SDFGT65657",
     trip_date: "15/09/2022",
     pickup_time: "01:00 PM",
     drop_time: "03:00 PM",
     total_trip_time: "02:00 Hrs",
-    total_trip_km: "46 KM",
+    total_trip_km: "56 KM",
   },
   {
     id: 7,
     driver_image: "",
-    driver_name: "Anil Chauhan",
+    driver_name: "Jay Chauhan",
     car_info: "Alto, GJ 01 SH 0987",
     journey_id: "SDFGT65657",
     trip_date: "15/09/2022",
@@ -160,6 +160,138 @@ const TRIP_DATA = [
     total_trip_time: "02:00 Hrs",
     total_trip_km: "46 KM",
   },
+  {
+    id: 14,
+    driver_image: "",
+    driver_name: "Anil Chauhan",
+    car_info: "Alto, GJ 01 SH 0987",
+    journey_id: "SDFGT65657",
+    trip_date: "15/09/2022",
+    pickup_time: "01:00 PM",
+    drop_time: "03:00 PM",
+    total_trip_time: "02:00 Hrs",
+    total_trip_km: "46 KM",
+  },
+  {
+    id: 15,
+    driver_image: "",
+    driver_name: "Anil Chauhan",
+    car_info: "Alto, GJ 01 SH 0987",
+    journey_id: "SDFGT65657",
+    trip_date: "15/09/2022",
+    pickup_time: "01:00 PM",
+    drop_time: "03:00 PM",
+    total_trip_time: "02:00 Hrs",
+    total_trip_km: "46 KM",
+  },
+  {
+    id: 16,
+    driver_image: "",
+    driver_name: "Anil Chauhan",
+    car_info: "Alto, GJ 01 SH 0987",
+    journey_id: "SDFGT65657",
+    trip_date: "15/09/2022",
+    pickup_time: "01:00 PM",
+    drop_time: "03:00 PM",
+    total_trip_time: "02:00 Hrs",
+    total_trip_km: "46 KM",
+  },
+  {
+    id: 17,
+    driver_image: "",
+    driver_name: "Anil Chauhan",
+    car_info: "Alto, GJ 01 SH 0987",
+    journey_id: "SDFGT65657",
+    trip_date: "15/09/2022",
+    pickup_time: "01:00 PM",
+    drop_time: "03:00 PM",
+    total_trip_time: "02:00 Hrs",
+    total_trip_km: "46 KM",
+  },
+  {
+    id: 18,
+    driver_image: "",
+    driver_name: "Anil Chauhan",
+    car_info: "Alto, GJ 01 SH 0987",
+    journey_id: "SDFGT65657",
+    trip_date: "15/09/2022",
+    pickup_time: "01:00 PM",
+    drop_time: "03:00 PM",
+    total_trip_time: "02:00 Hrs",
+    total_trip_km: "46 KM",
+  },
+  {
+    id: 19,
+    driver_image: "",
+    driver_name: "Anil Chauhan",
+    car_info: "Alto, GJ 01 SH 0987",
+    journey_id: "SDFGT65657",
+    trip_date: "15/09/2022",
+    pickup_time: "01:00 PM",
+    drop_time: "03:00 PM",
+    total_trip_time: "02:00 Hrs",
+    total_trip_km: "46 KM",
+  },
+  {
+    id: 20,
+    driver_image: "",
+    driver_name: "Anil Chauhan",
+    car_info: "Alto, GJ 01 SH 0987",
+    journey_id: "SDFGT65657",
+    trip_date: "15/09/2022",
+    pickup_time: "01:00 PM",
+    drop_time: "03:00 PM",
+    total_trip_time: "02:00 Hrs",
+    total_trip_km: "46 KM",
+  },
+  {
+    id: 21,
+    driver_image: "",
+    driver_name: "Anil Chauhan",
+    car_info: "Alto, GJ 01 SH 0987",
+    journey_id: "SDFGT65657",
+    trip_date: "15/09/2022",
+    pickup_time: "01:00 PM",
+    drop_time: "03:00 PM",
+    total_trip_time: "02:00 Hrs",
+    total_trip_km: "46 KM",
+  },
+  {
+    id: 22,
+    driver_image: "",
+    driver_name: "Anil Chauhan",
+    car_info: "Alto, GJ 01 SH 0987",
+    journey_id: "SDFGT65657",
+    trip_date: "15/09/2022",
+    pickup_time: "01:00 PM",
+    drop_time: "03:00 PM",
+    total_trip_time: "02:00 Hrs",
+    total_trip_km: "46 KM",
+  },
+  {
+    id: 23,
+    driver_image: "",
+    driver_name: "Anil Chauhan",
+    car_info: "Alto, GJ 01 SH 0987",
+    journey_id: "SDFGT65657",
+    trip_date: "15/09/2022",
+    pickup_time: "01:00 PM",
+    drop_time: "03:00 PM",
+    total_trip_time: "02:00 Hrs",
+    total_trip_km: "46 KM",
+  },
+  {
+    id: 24,
+    driver_image: "",
+    driver_name: "Anil Chauhan",
+    car_info: "Alto, GJ 01 SH 0987",
+    journey_id: "SDFGT65657",
+    trip_date: "15/09/2022",
+    pickup_time: "01:00 PM",
+    drop_time: "03:00 PM",
+    total_trip_time: "02:00 Hrs",
+    total_trip_km: "46 KM",
+  },
 ];
 
 const TRIP_TITLE = [
@@ -183,12 +315,11 @@ function App() {
   const indexOfFirstRecord = indexOfLastRecord - recordsPerPage;
   console.log(indexOfFirstRecord, indexOfLastRecord);
   let currentRecords;
-  if (!myClick) {
-    currentRecords = filteredData.slice(indexOfFirstRecord, indexOfLastRecord);
-  } else {
-    currentRecords = filteredData;
-  }
-  console.log(currentRecords);
+  // if (myClick) {
+  currentRecords = filteredData.slice(indexOfFirstRecord, indexOfLastRecord);
+  // } else {
+  // currentRecords = filteredData;
+  // }
   const nPages = Math.ceil(filteredData.length / recordsPerPage);
 
   let fromRecords = 0;
@@ -196,13 +327,15 @@ function App() {
   else fromRecords = (currentPage - 1) * recordsPerPage;
   let toRecords = 0;
   if (
-    currentPage * recordsPerPage +
-      recordsPerPage -
-      (filteredData.length % recordsPerPage) >
-    filteredData.length
+    (myClick
+      ? currentPage * recordsPerPage - (filteredData.length % recordsPerPage)
+      : currentPage * recordsPerPage +
+        recordsPerPage -
+        (filteredData.length % recordsPerPage)) > filteredData.length
   )
     toRecords = filteredData.length;
   else toRecords = currentPage * recordsPerPage;
+  // toRecords = currentPage * recordsPerPage;
   const buttonClickHandler = () => {
     myClick = true;
     console.log(TRIP_DATA);
